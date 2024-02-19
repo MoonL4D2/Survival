@@ -38,7 +38,6 @@ confogl_addcvar sv_maxcmdrate 100
 confogl_addcvar nb_update_frequency 0.001
 
 // Apocalypse Cvars
-
 confogl_addcvar allow_all_bot_survivor_team 1
 confogl_addcvar z_restrict_team_change 0
 confogl_addcvar sv_voiceenable 1
@@ -91,7 +90,7 @@ confogl_addcvar z_door_reopen_interval 0.1
 confogl_addcvar z_door_retry_interval 0.1
 confogl_addcvar z_door_pound_damage 50
 confogl_addcvar z_breakable_damage 100
-confogl_addcvar z_pounce_door_damage 250
+confogl_addcvar z_pounce_door_damage 200
 
 confogl_addcvar car_alarm_distance 1200
 confogl_addcvar car_alarm_chirp_distance 400
@@ -331,7 +330,7 @@ confogl_addcvar claw_range_down 60
 confogl_addcvar claw_swing_duration 0.10
 confogl_addcvar claw_swing_interval 1.0
 confogl_addcvar claw_swing_miss_interval 1.0
-confogl_addcvar z_attack_movement_penalty 0.5
+confogl_addcvar z_attack_movement_penalty 0.4
 confogl_addcvar z_max_stagger_duration 3.0
 confogl_addcvar z_max_survivor_damage 300
 
@@ -423,7 +422,7 @@ confogl_addcvar tongue_los_forgiveness_time 0.2
 confogl_addcvar tongue_allow_voluntary_release 0
 confogl_addcvar tongue_health 200
 confogl_addcvar tongue_break_from_damage_amount 200
-confogl_addcvar tongue_start_pull_delay 0
+confogl_addcvar tongue_start_pull_delay 0.0
 confogl_addcvar tongue_victim_acceleration 180
 confogl_addcvar tongue_victim_max_speed 180
 confogl_addcvar tongue_drag_damage_amount 4
