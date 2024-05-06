@@ -1,0 +1,212 @@
+// Server Settings
+
+confogl_addcvar sv_steamgroup “38693222”
+confogl_addcvar sv_steamgroup_exclusive 0
+confogl_addcvar sv_contact “EricMizusawa1@gmail.com”
+confogl_addcvar sv_region “0”
+confogl_addcvar sv_lan 0
+confogl_addcvar sv_password “”
+confogl_addcvar sv_gametypes “Coop,Realism,Survival,Shootzones,Dash,Holdout”
+confogl_addcvar sv_search_key “”
+confogl_addcvar sv_search_team_key “”
+confogl_addcvar sv_tags “”
+confogl_addcvar sv_stats 1
+confogl_addcvar sv_logsdir “logs”
+confogl_addcvar sv_log_onefile 0
+confogl_addcvar sv_logecho 1
+confogl_addcvar sv_logblocks 0
+confogl_addcvar sv_logbans 1
+confogl_addcvar sv_logdownloadlist 0
+confogl_addcvar sv_logflush 1
+confogl_addcvar sys_minidumpspewlines 1000
+confogl_addcvar force_disablex360 1
+confogl_addcvar sv_allow_lobby_connect_only 0
+confogl_addcvar sv_cheats 0
+confogl_addcvar sv_consistency 0
+confogl_addcvar sv_allowupload 1
+confogl_addcvar sv_allowdownload 1
+confogl_addcvar sv_pure_kick_clients 0
+confogl_addcvar sv_filterban 1
+confogl_addcvar sv_pausable 0
+confogl_addcvar sv_pausable_dev 0
+confogl_addcvar sv_pausable_dev_ds 0
+confogl_addcvar sv_rcon_log 1
+confogl_addcvar sv_rcon_minfailures 5
+confogl_addcvar sv_rcon_maxfailures 10
+confogl_addcvar sv_rcon_minfailuretime 20.0
+confogl_addcvar sv_rcon_banpenalty 0
+confogl_addcvar sv_hibernate_when_empty 1
+confogl_addcvar sv_hibernate_ms 100.0
+confogl_addcvar sv_hibernate_ms_vgui 100.0
+confogl_addcvar sv_hibernate_postgame_delay 10.0
+confogl_addcvar sv_timeout 120.0
+
+// Graphic Settings
+
+confogl_addcvar sv_memlimit 0
+confogl_addcvar mem_min_heapsize “64”
+confogl_addcvar mem_max_heapsize “256”
+confogl_addcvar mem_max_heapsize_dedicated “256”
+confogl_addcvar datacachesize “64”
+confogl_addcvar mem_level “2”
+confogl_addcvar gpu_mem_level “2”
+confogl_addcvar gpu_level “3”
+confogl_addcvar cpu_level “2”
+confogl_addcvar sv_instancebaselines “1”
+confogl_addcvar sv_netvisdist 10000.00
+confogl_addcvar sv_maxroutable 1200.00
+confogl_addcvar net_maxroutable 1200.00
+confogl_addcvar net_maxfragments 1200.00
+confogl_addcvar net_splitrate 2.0
+confogl_addcvar net_splitpacket_maxrate 100000.0
+confogl_addcvar net_maxcleartime 0.010
+confogl_addcvar z_network_compression 1
+confogl_addcvar net_compresspackets 0
+confogl_addcvar net_compresspackets_minsize 1024
+confogl_addcvar net_maxfilesize 32
+confogl_addcvar sv_max_queries_sec 6.00
+confogl_addcvar sv_max_queries_sec_global 120.0
+confogl_addcvar sv_max_queries_window 60.0
+confogl_addcvar sv_quota_stringcmdspersecond 1000
+
+confogl_addcvar fps_max 0
+confogl_addcvar fps_max_splitscreen 0
+confogl_addcvar sv_maxrate 200000.0
+confogl_addcvar sv_minrate 100000.0
+confogl_addcvar sv_alternateticks 0
+confogl_addcvar sv_maxupdaterate 200.0
+confogl_addcvar sv_minupdaterate 100.0
+confogl_addcvar sv_maxcmdrate 200.0
+confogl_addcvar sv_mincmdrate 100.0
+confogl_addcvar sv_client_cmdrate_difference 0.0
+confogl_addcvar sv_client_min_interp_ratio 0.0
+confogl_addcvar sv_client_max_interp_ratio 0.0
+confogl_addcvar cl_interpolate 1.0
+confogl_addcvar sv_maxclientframes 1000.0
+confogl_addcvar sv_client_predict 1
+confogl_addcvar sv_runcmds 1
+confogl_addcvar sv_allow_wait_command “1”
+confogl_addcvar sv_max_usercmd_future_ticks 16
+confogl_addcvar sv_unlag 1
+confogl_addcvar sv_unlag_fixstuck 1
+confogl_addcvar sv_maxunlag 1.00
+confogl_addcvar sv_lagpushticks 8
+confogl_addcvar sv_lagcompensationforcerestore 1
+confogl_addcvar sv_creationtickcheck 1
+confogl_addcvar sv_clockcorrection_msecs 100.0
+confogl_addcvar sv_cycle_latch_timer 0.10
+confogl_addcvar sv_script_think_interval 0.010
+confogl_addcvar think_limit 10.00
+
+confogl_addcvar sv_maxplayers 24
+confogl_addcvar sv_visiblemaxplayers 24
+confogl_addcvar survivor_limit 4
+confogl_addcvar z_max_player_zombies 20
+confogl_addcvar allow_all_bot_survivor_team 1
+confogl_addcvar sb_all_bot_game 1
+confogl_addcvar sv_forcepreload 1
+confogl_addcvar precache_all_survivors 1
+confogl_addcvar director_min_start_players 1
+confogl_addcvar z_restrict_team_change 0
+confogl_addcvar vs_max_team_switches 2147483647
+confogl_addcvar spec_filter “any”
+confogl_addcvar spec_filter_survivors “any”
+confogl_addcvar spec_filter_infected “any”
+confogl_addcvar director_spectate_specials 1
+confogl_addcvar sv_voiceenable 1
+confogl_addcvar sv_alltalk 1
+confogl_addcvar l4d_stats_track 1
+confogl_addcvar l4d_stats_nogameplaycheck 1
+confogl_addcvar achievement_disable 0
+confogl_addcvar achievement_debug 0
+confogl_addcvar motd_enabled 0
+confogl_addcvar sv_gameinstructor_disable 0
+confogl_addcvar sv_parallel_packentities 2
+confogl_addcvar sv_parallel_sendsnapshot 2
+confogl_addcvar sv_multiplayer_maxtempentities 32
+confogl_addcvar sv_multiplayer_sounds 32
+confogl_addcvar decalfrequency 1.60
+
+confogl_addcvar sv_allow_votes 1
+confogl_addcvar sv_vote_issue_change_difficulty_allowed 1
+confogl_addcvar sv_vote_issue_restart_game_allowed 1
+confogl_addcvar sv_vote_issue_change_map_now_allowed 1
+confogl_addcvar sv_vote_issue_change_map_later_allowed 1
+confogl_addcvar sv_vote_issue_change_mission_allowed 1
+confogl_addcvar sv_vote_issue_kick_allowed 1
+confogl_addcvar sv_vote_show_caller 1
+confogl_addcvar sv_vote_creation_timer 10.0
+confogl_addcvar sv_vote_failure_timer 0.0
+confogl_addcvar sv_vote_timer_duration 8.0
+confogl_addcvar sv_vote_command_delay 1.10
+confogl_addcvar changelevel_inhibit 0
+confogl_addcvar changelevel_pause_interval 6.0
+confogl_addcvar sv_vote_kick_ban_duration 0.0
+confogl_addcvar sv_vote_plr_map_limit 2147483647
+
+confogl_addcvar sv_maxvelocity 5000.00
+confogl_addcvar sv_maxspeed 1000.00
+confogl_addcvar sv_backspeed 1.00
+confogl_addcvar sv_stopspeed 60.0
+confogl_addcvar sv_rollangle 0.0
+confogl_addcvar sv_rollspeed 0.0
+confogl_addcvar still_vel_limit 20.0
+confogl_addcvar still_view_accel_limit 2000.0
+confogl_addcvar sv_friction 7.00
+confogl_addcvar sv_accelerate 8.00
+confogl_addcvar sv_optimizedmovement 1
+confogl_addcvar sv_footsteps 1
+confogl_addcvar sv_footstepinterval 0.20
+confogl_addcvar sv_stepsize 30.0
+confogl_addcvar sv_gravity 750.0
+confogl_addcvar sv_airaccelerate 20.00
+confogl_addcvar sv_wateraccelerate 30.00
+confogl_addcvar sv_waterfriction 0.00
+confogl_addcvar noclip_fixup 1
+confogl_addcvar sv_noclipaccelerate 4.50
+confogl_addcvar sv_noclipspeed 4.00
+confogl_addcvar sv_noclipfriction 4.00
+confogl_addcvar sv_specnoclip 1
+confogl_addcvar z_spec_nightvision 1
+confogl_addcvar sv_noclipduringpause 1
+confogl_addcvar sv_specaccelerate 5.00
+confogl_addcvar sv_specspeed 4.50
+confogl_addcvar z_anim_idle_speed_min 0.0
+confogl_addcvar z_anim_idle_speed_max 60.0
+confogl_addcvar director_afk_timeout 2147483647
+confogl_addcvar spec_freeze_time 0.00
+confogl_addcvar spec_freeze_traveltime 0.00
+confogl_addcvar sv_spectatoridletime 2147483647
+
+// Sourcemod Plugins
+
+sm plugins load left4dhooks.smx
+sm plugins load optional/l4d2lib.smx
+sm plugins load optional/predictable_unloader.smx
+sm plugins load fixes/command_buffer.smx
+sm plugins load fixes/TickrateFixes.smx
+sm plugins load optional/l4d_stats.smx
+sm plugins load optional/l4d2_spawn_props.smx
+sm plugins load optional/l4d2-manual-director.smx
+sm plugins load optional/l4d_weapon_spawn.smx
+
+// SourceBans
+
+sm plugins load anticheat/sbpp_admcfg.smx
+sm plugins load anticheat/sbpp_checker.smx
+sm plugins load anticheat/sbpp_comms.smx
+sm plugins load anticheat/sbpp_main.smx
+sm plugins load anticheat/sbpp_report.smx
+sm plugins load anticheat/sbpp_sleuth.smx
+
+// More
+
+sm plugins load basecommands.smx
+sm plugins load basecomm.smx
+sm plugins load basechat.smx
+sm plugins load admin-flatfile.smx
+sm plugins load adminhelp.smx
+sm plugins load adminmenu.smx
+sm plugins load funcommands.smx
+sm plugins load playercommands.smx
+sm plugins load funvotes.smx
