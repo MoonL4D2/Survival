@@ -49,12 +49,13 @@ confogl_addcvar mem_min_heapsize “64”
 confogl_addcvar mem_max_heapsize “256”
 confogl_addcvar mem_max_heapsize_dedicated “256”
 confogl_addcvar datacachesize “128”
+confogl_addcvar sv_always_full_flush 1
 confogl_addcvar host_flush_threshold 16
 confogl_addcvar mem_level “2”
 confogl_addcvar gpu_mem_level “2”
 confogl_addcvar gpu_level “3”
 confogl_addcvar cpu_level “2”
-confogl_addcvar sv_instancebaselines “1”
+confogl_addcvar sv_instancebaselines 1
 confogl_addcvar sv_netvisdist 10000.00
 confogl_addcvar sv_maxroutable 1200.00
 confogl_addcvar net_maxroutable 1200.00
@@ -92,7 +93,7 @@ confogl_addcvar cl_interpolate 1.0
 confogl_addcvar sv_maxclientframes 1000.0
 confogl_addcvar sv_client_predict 1
 confogl_addcvar sv_runcmds 1
-confogl_addcvar sv_allow_wait_command “1”
+confogl_addcvar sv_allow_wait_command 1
 confogl_addcvar sv_max_usercmd_future_ticks 16
 confogl_addcvar sv_unlag 1
 confogl_addcvar sv_unlag_fixstuck 1
@@ -102,10 +103,10 @@ confogl_addcvar sv_lagcompensationforcerestore 1
 confogl_addcvar sv_creationtickcheck 1
 confogl_addcvar sv_clockcorrection_msecs 100.0
 confogl_addcvar cl_clock_correction 1
-confogl_addcvar cl_clock_correction_force_server_tick 999
+confogl_addcvar cl_clock_correction_force_server_tick 999.0
 confogl_addcvar cl_clock_correction_adjustment_min_offset 10.0
 confogl_addcvar cl_clock_correction_adjustment_max_offset 100.0
-confogl_addcvar cl_clock_correction_adjustment_max_amount 999
+confogl_addcvar cl_clock_correction_adjustment_max_amount 999.0
 confogl_addcvar sv_cycle_latch_timer 0.10
 confogl_addcvar sv_script_think_interval 0.010
 confogl_addcvar think_limit 10.00
@@ -132,7 +133,7 @@ confogl_addcvar sv_alltalk 1
 confogl_addcvar l4d_stats_track 1
 confogl_addcvar l4d_stats_nogameplaycheck 1
 confogl_addcvar achievement_disable 0
-confogl_addcvar achievement_debug 0
+confogl_addcvar achievement_debug 1
 confogl_addcvar motd_enabled 0
 confogl_addcvar sv_gameinstructor_disable 0
 confogl_addcvar sv_parallel_packentities 2
