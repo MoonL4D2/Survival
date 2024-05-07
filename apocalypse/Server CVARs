@@ -6,7 +6,7 @@ confogl_addcvar sv_contact “EricMizusawa1@gmail.com”
 confogl_addcvar sv_region “0”
 confogl_addcvar sv_lan 0
 confogl_addcvar sv_password “”
-confogl_addcvar sv_gametypes “Coop,Realism,Survival,Shootzones,Dash,Holdout”
+confogl_addcvar sv_gametypes “Coop,Survival”
 confogl_addcvar sv_search_key “”
 confogl_addcvar sv_search_team_key “”
 confogl_addcvar sv_tags “”
@@ -20,6 +20,7 @@ confogl_addcvar sv_logdownloadlist 0
 confogl_addcvar sv_logflush 1
 confogl_addcvar sys_minidumpspewlines 1000
 confogl_addcvar force_disablex360 1
+confogl_addcvar sv_hosting_lobby 0
 confogl_addcvar sv_allow_lobby_connect_only 0
 confogl_addcvar sv_cheats 0
 confogl_addcvar sv_consistency 0
@@ -31,11 +32,11 @@ confogl_addcvar sv_pausable 0
 confogl_addcvar sv_pausable_dev 0
 confogl_addcvar sv_pausable_dev_ds 0
 confogl_addcvar sv_rcon_log 1
-confogl_addcvar sv_ragdoll_version 1
 confogl_addcvar sv_rcon_minfailures 5
 confogl_addcvar sv_rcon_maxfailures 10
 confogl_addcvar sv_rcon_minfailuretime 20.0
 confogl_addcvar sv_rcon_banpenalty 0
+confogl_addcvar cl_resend 4.0
 confogl_addcvar sv_hibernate_when_empty 1
 confogl_addcvar sv_hibernate_ms 100.0
 confogl_addcvar sv_hibernate_ms_vgui 100.0
@@ -70,7 +71,7 @@ confogl_addcvar net_maxfilesize 32
 confogl_addcvar sv_max_queries_sec 6.00
 confogl_addcvar sv_max_queries_sec_global 120.0
 confogl_addcvar sv_max_queries_window 60.0
-confogl_addcvar sv_quota_stringcmdspersecond 1000
+confogl_addcvar sv_quota_stringcmdspersecond 1024
 
 // Rate Settings
 
@@ -79,12 +80,12 @@ confogl_addcvar host_limitlocal 0
 confogl_addcvar host_framerate 0
 confogl_addcvar fps_max 0
 confogl_addcvar fps_max_splitscreen 0
-confogl_addcvar sv_maxrate 200000.0
+confogl_addcvar sv_maxrate 400000.0
 confogl_addcvar sv_minrate 100000.0
 confogl_addcvar sv_alternateticks 0
-confogl_addcvar sv_maxupdaterate 200.0
+confogl_addcvar sv_maxupdaterate 400.0
 confogl_addcvar sv_minupdaterate 100.0
-confogl_addcvar sv_maxcmdrate 200.0
+confogl_addcvar sv_maxcmdrate 400.0
 confogl_addcvar sv_mincmdrate 100.0
 confogl_addcvar sv_client_cmdrate_difference 0.0
 confogl_addcvar sv_client_min_interp_ratio 0.0
