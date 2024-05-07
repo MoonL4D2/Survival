@@ -13,7 +13,7 @@ confogl_addcvar sv_tags “”
 confogl_addcvar sv_stats 1
 confogl_addcvar sv_logsdir “logs”
 confogl_addcvar sv_log_onefile 0
-confogl_addcvar sv_logecho 1
+confogl_addcvar sv_logecho 0
 confogl_addcvar sv_logblocks 0
 confogl_addcvar sv_logbans 1
 confogl_addcvar sv_logdownloadlist 0
@@ -31,6 +31,7 @@ confogl_addcvar sv_pausable 0
 confogl_addcvar sv_pausable_dev 0
 confogl_addcvar sv_pausable_dev_ds 0
 confogl_addcvar sv_rcon_log 1
+confogl_addcvar sv_ragdoll_version 1
 confogl_addcvar sv_rcon_minfailures 5
 confogl_addcvar sv_rcon_maxfailures 10
 confogl_addcvar sv_rcon_minfailuretime 20.0
@@ -41,13 +42,14 @@ confogl_addcvar sv_hibernate_ms_vgui 100.0
 confogl_addcvar sv_hibernate_postgame_delay 10.0
 confogl_addcvar sv_timeout 120.0
 
-// Graphic Settings
+// Network Settings
 
 confogl_addcvar sv_memlimit 0
 confogl_addcvar mem_min_heapsize “64”
 confogl_addcvar mem_max_heapsize “256”
 confogl_addcvar mem_max_heapsize_dedicated “256”
-confogl_addcvar datacachesize “64”
+confogl_addcvar datacachesize “128”
+confogl_addcvar host_flush_threshold 16
 confogl_addcvar mem_level “2”
 confogl_addcvar gpu_mem_level “2”
 confogl_addcvar gpu_level “3”
@@ -69,6 +71,11 @@ confogl_addcvar sv_max_queries_sec_global 120.0
 confogl_addcvar sv_max_queries_window 60.0
 confogl_addcvar sv_quota_stringcmdspersecond 1000
 
+// Rate Settings
+
+confogl_addcvar host_syncfps 0
+confogl_addcvar host_limitlocal 0
+confogl_addcvar host_framerate 0
 confogl_addcvar fps_max 0
 confogl_addcvar fps_max_splitscreen 0
 confogl_addcvar sv_maxrate 200000.0
@@ -94,9 +101,16 @@ confogl_addcvar sv_lagpushticks 8
 confogl_addcvar sv_lagcompensationforcerestore 1
 confogl_addcvar sv_creationtickcheck 1
 confogl_addcvar sv_clockcorrection_msecs 100.0
+confogl_addcvar cl_clock_correction 1
+confogl_addcvar cl_clock_correction_force_server_tick 999
+confogl_addcvar cl_clock_correction_adjustment_min_offset 10.0
+confogl_addcvar cl_clock_correction_adjustment_max_offset 100.0
+confogl_addcvar cl_clock_correction_adjustment_max_amount 999
 confogl_addcvar sv_cycle_latch_timer 0.10
 confogl_addcvar sv_script_think_interval 0.010
 confogl_addcvar think_limit 10.00
+
+// Game Settings
 
 confogl_addcvar sv_maxplayers 24
 confogl_addcvar sv_visiblemaxplayers 24
@@ -127,6 +141,8 @@ confogl_addcvar sv_multiplayer_maxtempentities 32
 confogl_addcvar sv_multiplayer_sounds 32
 confogl_addcvar decalfrequency 1.60
 
+// Voting Settings
+
 confogl_addcvar sv_allow_votes 1
 confogl_addcvar sv_vote_issue_change_difficulty_allowed 1
 confogl_addcvar sv_vote_issue_restart_game_allowed 1
@@ -144,6 +160,9 @@ confogl_addcvar changelevel_pause_interval 6.0
 confogl_addcvar sv_vote_kick_ban_duration 0.0
 confogl_addcvar sv_vote_plr_map_limit 2147483647
 
+// Player Settings
+
+confogl_addcvar host_timescale 1.00
 confogl_addcvar sv_maxvelocity 5000.00
 confogl_addcvar sv_maxspeed 1000.00
 confogl_addcvar sv_backspeed 1.00
@@ -163,50 +182,17 @@ confogl_addcvar sv_airaccelerate 20.00
 confogl_addcvar sv_wateraccelerate 30.00
 confogl_addcvar sv_waterfriction 0.00
 confogl_addcvar noclip_fixup 1
-confogl_addcvar sv_noclipaccelerate 4.50
-confogl_addcvar sv_noclipspeed 4.00
+confogl_addcvar sv_noclipaccelerate 5.00
+confogl_addcvar sv_noclipspeed 4.50
 confogl_addcvar sv_noclipfriction 4.00
 confogl_addcvar sv_specnoclip 1
 confogl_addcvar z_spec_nightvision 1
 confogl_addcvar sv_noclipduringpause 1
-confogl_addcvar sv_specaccelerate 5.00
-confogl_addcvar sv_specspeed 4.50
+confogl_addcvar sv_specaccelerate 5.50
+confogl_addcvar sv_specspeed 5.00
 confogl_addcvar z_anim_idle_speed_min 0.0
 confogl_addcvar z_anim_idle_speed_max 60.0
 confogl_addcvar director_afk_timeout 2147483647
 confogl_addcvar spec_freeze_time 0.00
 confogl_addcvar spec_freeze_traveltime 0.00
 confogl_addcvar sv_spectatoridletime 2147483647
-
-// Sourcemod Plugins
-
-sm plugins load left4dhooks.smx
-sm plugins load optional/l4d2lib.smx
-sm plugins load optional/predictable_unloader.smx
-sm plugins load fixes/command_buffer.smx
-sm plugins load fixes/TickrateFixes.smx
-sm plugins load optional/l4d_stats.smx
-sm plugins load optional/l4d2_spawn_props.smx
-sm plugins load optional/l4d2-manual-director.smx
-sm plugins load optional/l4d_weapon_spawn.smx
-
-// SourceBans
-
-sm plugins load anticheat/sbpp_admcfg.smx
-sm plugins load anticheat/sbpp_checker.smx
-sm plugins load anticheat/sbpp_comms.smx
-sm plugins load anticheat/sbpp_main.smx
-sm plugins load anticheat/sbpp_report.smx
-sm plugins load anticheat/sbpp_sleuth.smx
-
-// More
-
-sm plugins load basecommands.smx
-sm plugins load basecomm.smx
-sm plugins load basechat.smx
-sm plugins load admin-flatfile.smx
-sm plugins load adminhelp.smx
-sm plugins load adminmenu.smx
-sm plugins load funcommands.smx
-sm plugins load playercommands.smx
-sm plugins load funvotes.smx
