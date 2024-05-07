@@ -14,7 +14,6 @@ sm plugins load optional/blocktrolls.smx
 sm plugins load optional/coinflip.smx
 sm plugins load optional/l4d2_spec_stays_spec.smx
 sm plugins load optional/l4d2_unsilent_jockey.smx
-sm plugins load optional/l4d2_weaponrules.smx
 sm plugins load optional/l4d_jockey_ledgehang.smx
 sm plugins load optional/l4d_stuckzombiemeleefix.smx
 sm plugins load optional/l4d_tank_damage_announce.smx
@@ -41,7 +40,6 @@ sm plugins load optional/fix_engine.smx
 sm plugins load optional/l4d2_collision_adjustments.smx
 sm plugins load optional/l4d1_stats.smx
 sm plugins load optional/l4d2_stats.smx
-sm plugins load l4d2_melee_shenanigans.smx
 sm plugins load optional/l4d2_ladder_rambos.smx
 sm plugins load optional/noteam_nudging.smx
 sm plugins load optional/charger_incap_damage.smx
