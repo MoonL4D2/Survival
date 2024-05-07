@@ -193,7 +193,7 @@ confogl_addcvar sv_noclipduringpause 1
 confogl_addcvar sv_specaccelerate 5.50
 confogl_addcvar sv_specspeed 5.00
 confogl_addcvar z_anim_idle_speed_min 0.0
-confogl_addcvar z_anim_idle_speed_max 60.0
+confogl_addcvar z_anim_idle_speed_max 80.0
 confogl_addcvar director_afk_timeout 2147483647
 confogl_addcvar spec_freeze_time 0.00
 confogl_addcvar spec_freeze_traveltime 0.00
