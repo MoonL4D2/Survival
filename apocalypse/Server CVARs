@@ -95,11 +95,11 @@ confogl_addcvar sv_maxclientframes 1000.0
 confogl_addcvar sv_client_predict 1
 confogl_addcvar sv_runcmds 1
 confogl_addcvar sv_allow_wait_command 1
-confogl_addcvar sv_max_usercmd_future_ticks 100
+confogl_addcvar sv_max_usercmd_future_ticks 100.0
 confogl_addcvar sv_unlag 1
 confogl_addcvar sv_unlag_fixstuck 1
-confogl_addcvar sv_maxunlag 1.00
-confogl_addcvar sv_lagpushticks 100
+confogl_addcvar sv_maxunlag 2.00
+confogl_addcvar sv_lagpushticks 100.0
 confogl_addcvar sv_lagcompensationforcerestore 1
 confogl_addcvar sv_creationtickcheck 1
 confogl_addcvar sv_clockcorrection_msecs 100.0
@@ -108,7 +108,7 @@ confogl_addcvar cl_clock_correction_force_server_tick 999.0
 confogl_addcvar cl_clock_correction_adjustment_min_offset 10.0
 confogl_addcvar cl_clock_correction_adjustment_max_offset 100.0
 confogl_addcvar cl_clock_correction_adjustment_max_amount 999.0
-confogl_addcvar sv_cycle_latch_timer 0.10
+confogl_addcvar sv_cycle_latch_timer 0.100
 confogl_addcvar sv_script_think_interval 0.010
 confogl_addcvar think_limit 10.00
 
@@ -164,7 +164,7 @@ confogl_addcvar sv_vote_plr_map_limit 2147483647
 
 // Player Settings
 
-confogl_addcvar host_timescale 1.00
+confogl_addcvar host_timescale 1.000
 confogl_addcvar sv_maxvelocity 5000.00
 confogl_addcvar sv_maxspeed 1000.00
 confogl_addcvar sv_backspeed 1.00
