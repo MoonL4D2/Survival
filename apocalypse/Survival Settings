@@ -81,7 +81,7 @@ confogl_addcvar sb_temp_health_consider_factor 1.00
 confogl_addcvar sb_toughness_buffer 50
 confogl_addcvar sb_revive_friend_distance 500.0
 confogl_addcvar sb_vomit_blind_time 0.00
-confogl_addcvar sb_narrow_corridor_width 64.0
+confogl_addcvar sb_narrow_corridor_width 75.0
 confogl_addcvar sb_minigun_distance 20.0
 confogl_addcvar sb_close_checkpoint_door_interval 2147483647
 
