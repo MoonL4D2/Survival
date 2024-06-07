@@ -63,8 +63,8 @@ sm_weapon rifle reloadduration 2.2
 
 sm_weapon rifle_ak47 clipsize 40
 sm_weapon rifle_ak47 spreadpershot 0.8
-sm_weapon rifle_ak47 minstandingspread 0.8
-sm_weapon rifle_ak47 minduckingspread 0.4
+sm_weapon rifle_ak47 minstandingspread 1.0
+sm_weapon rifle_ak47 minduckingspread 0.5
 sm_weapon rifle_ak47 mininairspread 1.5
 sm_weapon rifle_ak47 maxmovementspread 3.5
 sm_weapon rifle_ak47 maxspread 5.5
@@ -169,7 +169,7 @@ sm_weapon sniper_awp mininairspread 0.5
 sm_weapon sniper_awp maxmovementspread 1.5
 sm_weapon sniper_awp maxspread 3.0
 sm_weapon sniper_awp verticalpunch 3.0
-sm_weapon sniper_awp cycletime 0.3
+sm_weapon sniper_awp cycletime 0.30
 sm_weapon sniper_awp damage 125
 sm_weapon sniper_awp rangemod 1.0
 sm_weapon sniper_awp range 8192
@@ -291,8 +291,8 @@ sm_weapon shotgun_chrome range 8192
 //  [Pistol Tweaks 'n Stuff]  //
 /////////////////////////////////
 
-sm_weapon pistol deployduration 0.4
-sm_weapon pistol dualdeployduration 0.5
+sm_weapon pistol deployduration 0.45
+sm_weapon pistol dualdeployduration 0.55
 sm_weapon pistol clipsize 20
 sm_weapon pistol minduckingspread 0.4
 sm_weapon pistol minstandingspread 0.6
@@ -308,8 +308,8 @@ sm_weapon pistol penetrationpower 60
 sm_weapon pistol rangemod 0.95
 sm_weapon pistol range 8192
 
-sm_weapon pistol_magnum deployduration 0.4
-sm_weapon pistol_magnum dualdeployduration 0.5
+sm_weapon pistol_magnum deployduration 0.45
+sm_weapon pistol_magnum dualdeployduration 0.55
 sm_weapon pistol_magnum clipsize 20
 sm_weapon pistol_magnum minduckingspread 0.5
 sm_weapon pistol_magnum minstandingspread 1.0
@@ -335,10 +335,9 @@ sm_weapon grenade_launcher rangemod 1.0
 sm_weapon grenade_launcher range 8192
 sm_weapon grenade_launcher reloadduration 2.8
 
-sm_weapon rifle_m60 carrycapacity 900
-sm_weapon rifle_m60 clipsize 100
-sm_weapon rifle_m60 minduckingspread 0.5
-sm_weapon rifle_m60 minstandingspread 1.0
+sm_weapon rifle_m60 clipsize 1000
+sm_weapon rifle_m60 minduckingspread 0.6
+sm_weapon rifle_m60 minstandingspread 1.2
 sm_weapon rifle_m60 mininairspread 1.5
 sm_weapon rifle_m60 maxmovementspread 4.0
 sm_weapon rifle_m60 spreadpershot 0.8
