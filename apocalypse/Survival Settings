@@ -208,8 +208,10 @@ confogl_addcvar z_tank_grenade_launcher_dmg_scale 2.00
 
 confogl_addcvar melee_range 100.0
 confogl_addcvar melee_combo_reset_time 0.975
-confogl_addcvar z_splatterdistance 0.0
-confogl_addcvar chainsaw_startup_fadeout_time 0.010
+confogl_addcvar melee_force_scalar 25.0
+confogl_addcvar melee_force_scalar_combat_character 100.0
+confogl_addcvar z_splatterdistance 10.0
+confogl_addcvar chainsaw_startup_fadeout_time 0.01
 confogl_addcvar chainsaw_attract_distance 200.0
 confogl_addcvar chainsaw_attack_distance 90.0
 confogl_addcvar chainsaw_attack_cone 90.00
@@ -219,7 +221,7 @@ confogl_addcvar chainsaw_attack_force 1000.0
 confogl_addcvar z_hit_chainsawer_factor 0.50
 
 confogl_addcvar z_minigun_spread 6.00
-confogl_addcvar z_minigun_fire_think_interval 0.010
+confogl_addcvar z_minigun_fire_think_interval 0.01
 confogl_addcvar z_minigun_spin_up_speed 20.00
 confogl_addcvar z_minigun_firing_speed 20.00
 confogl_addcvar z_minigun_spin_down_speed 10.00
@@ -229,7 +231,7 @@ confogl_addcvar z_minigun_overheat_time 100.00
 confogl_addcvar z_minigun_cooldown_time 0.10
 confogl_addcvar z_minigun_stand_distance 30.0
 confogl_addcvar mounted_gun_rate_of_fire 16.0
-confogl_addcvar z_mounted_gun_fire_think_interval 0.020
+confogl_addcvar z_mounted_gun_fire_think_interval 0.02
 confogl_addcvar mounted_gun_overheat_time 2147483647
 confogl_addcvar mounted_gun_overheat_penalty_time 0.00
 confogl_addcvar mounted_gun_cooldown_time 0.00
