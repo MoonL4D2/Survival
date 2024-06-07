@@ -210,6 +210,7 @@ confogl_addcvar melee_range 100.0
 confogl_addcvar melee_combo_reset_time 0.975
 confogl_addcvar melee_force_scalar 25.0
 confogl_addcvar melee_force_scalar_combat_character 100.0
+confogl_addcvar melee_collateral_shove_count 30
 confogl_addcvar z_splatterdistance 10.0
 confogl_addcvar chainsaw_startup_fadeout_time 0.01
 confogl_addcvar chainsaw_attract_distance 200.0
