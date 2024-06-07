@@ -175,7 +175,7 @@ confogl_addcvar ammo_assaultrifle_max 1073741823
 confogl_addcvar ammo_autoshotgun_max 1073741823
 confogl_addcvar ammo_huntingrifle_max 1073741823
 confogl_addcvar ammo_sniperrifle_max 1073741823
-confogl_addcvar ammo_m60_max 1073741823
+confogl_addcvar ammo_m60_max -2
 confogl_addcvar ammo_grenadelauncher_max -2
 confogl_addcvar ammo_chainsaw_max -2
 confogl_addcvar ammo_molotov_max 1
