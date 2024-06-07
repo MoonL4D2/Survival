@@ -16,6 +16,7 @@ confogl_addcvar survival_generate_fake_times 0
 
 confogl_addcvar sv_disable_glow_survivors 0
 confogl_addcvar sv_disable_glow_faritems 0
+confogl_addcvar decalfrequency 1.60
 confogl_addcvar player_use_radius 150.0
 confogl_addcvar z_use_tolerance 0.50
 confogl_addcvar z_use_belt_item_tolerance 0.00
