@@ -76,13 +76,11 @@ confogl_addcvar sv_quota_stringcmdspersecond 1000
 
 confogl_addcvar fps_max 0
 confogl_addcvar fps_max_splitscreen 0
-confogl_addcvar sv_alternateticks 0
-confogl_addcvar sv_sync_client_updates 0
-confogl_addcvar sv_maxrate 400000.0
+confogl_addcvar sv_maxrate 500000.0
 confogl_addcvar sv_minrate 100000.0
-confogl_addcvar sv_maxupdaterate 400.0
+confogl_addcvar sv_maxupdaterate 500.0
 confogl_addcvar sv_minupdaterate 100.0
-confogl_addcvar sv_maxcmdrate 400.0
+confogl_addcvar sv_maxcmdrate 500.0
 confogl_addcvar sv_mincmdrate 100.0
 confogl_addcvar sv_client_cmdrate_difference 0.0
 confogl_addcvar sv_client_min_interp_ratio 0.0
@@ -131,14 +129,13 @@ confogl_addcvar sv_alltalk 1
 confogl_addcvar l4d_stats_track 1
 confogl_addcvar l4d_stats_nogameplaycheck 1
 confogl_addcvar achievement_disable 0
-confogl_addcvar achievement_debug 1
+confogl_addcvar achievement_debug 0
 confogl_addcvar motd_enabled 0
 confogl_addcvar sv_gameinstructor_disable 0
 confogl_addcvar sv_parallel_packentities 2
 confogl_addcvar sv_parallel_sendsnapshot 2
 confogl_addcvar sv_multiplayer_maxtempentities 32
 confogl_addcvar sv_multiplayer_sounds 32
-confogl_addcvar decalfrequency 1.60
 
 // Voting Settings
 
