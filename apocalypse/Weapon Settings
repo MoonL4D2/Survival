@@ -56,6 +56,7 @@ sm_weapon rifle maxmovementspread 3.0
 sm_weapon rifle maxspread 5.0
 sm_weapon rifle cycletime 0.085
 sm_weapon rifle damage 40
+sm_weapon rifle penetrationnumlayers 4
 sm_weapon rifle penetrationpower 70
 sm_weapon rifle rangemod 0.975
 sm_weapon rifle range 8192
@@ -71,6 +72,7 @@ sm_weapon rifle_ak47 maxspread 5.5
 sm_weapon rifle_ak47 verticalpunch 2.0
 sm_weapon rifle_ak47 cycletime 0.125
 sm_weapon rifle_ak47 damage 60
+sm_weapon rifle_ak47 penetrationnumlayers 4
 sm_weapon rifle_ak47 penetrationpower 80
 sm_weapon rifle_ak47 rangemod 0.975
 sm_weapon rifle_ak47 range 8192
@@ -86,7 +88,8 @@ sm_weapon rifle_desert maxspread 3.5
 sm_weapon rifle_desert verticalpunch 1.0
 sm_weapon rifle_desert cycletime 0.065
 sm_weapon rifle_desert damage 55
-sm_weapon rifle_desert penetrationpower 90
+sm_weapon rifle_desert penetrationnumlayers 4
+sm_weapon rifle_desert penetrationpower 80
 sm_weapon rifle_desert rangemod 1.0
 sm_weapon rifle_desert range 8192
 sm_weapon rifle_desert reloadduration 2.8
@@ -101,6 +104,7 @@ sm_weapon rifle_sg552 maxmovementspread 3.0
 sm_weapon rifle_sg552 maxspread 5.0
 sm_weapon rifle_sg552 cycletime 0.075
 sm_weapon rifle_sg552 damage 40
+sm_weapon rifle_sg552 penetrationnumlayers 4
 sm_weapon rifle_sg552 penetrationpower 70
 sm_weapon rifle_sg552 rangemod 0.975
 sm_weapon rifle_sg552 range 8192
@@ -122,7 +126,8 @@ sm_weapon autoshotgun maxspread 2.0
 sm_weapon autoshotgun verticalpunch 3.5
 sm_weapon autoshotgun bullets 20
 sm_weapon autoshotgun damage 15
-sm_weapon autoshotgun penetrationpower 50
+sm_weapon autoshotgun penetrationnumlayers 2
+sm_weapon autoshotgun penetrationpower 60
 sm_weapon autoshotgun rangemod 0.80
 sm_weapon autoshotgun range 8192
 
@@ -138,8 +143,9 @@ sm_weapon shotgun_spas maxspread 2.0
 sm_weapon shotgun_spas verticalpunch 3.5
 sm_weapon shotgun_spas bullets 15
 sm_weapon shotgun_spas damage 20
+sm_weapon shotgun_spas penetrationnumlayers 2
 sm_weapon shotgun_spas penetrationpower 50
-sm_weapon shotgun_spas rangemod 0.80
+sm_weapon shotgun_spas rangemod 0.825
 sm_weapon shotgun_spas range 8192
 
 /////////////////////////////////
@@ -158,7 +164,8 @@ sm_weapon sniper_military cycletime 0.25
 sm_weapon sniper_military damage 100
 sm_weapon sniper_military rangemod 1.0
 sm_weapon sniper_military range 8192
-sm_weapon sniper_military penetrationpower 80
+sm_weapon sniper_military penetrationnumlayers 5
+sm_weapon sniper_military penetrationpower 90
 sm_weapon sniper_military reloadduration 3.0
 
 sm_weapon sniper_awp clipsize 20
@@ -173,11 +180,12 @@ sm_weapon sniper_awp cycletime 0.30
 sm_weapon sniper_awp damage 125
 sm_weapon sniper_awp rangemod 1.0
 sm_weapon sniper_awp range 8192
-sm_weapon sniper_awp penetrationpower 80
+sm_weapon sniper_awp penetrationnumlayers 5
+sm_weapon sniper_awp penetrationpower 90
 sm_weapon sniper_awp reloadduration 3.2
 
 sm_weapon hunting_rifle clipsize 30
-sm_weapon hunting_rifle verticalpunch 1.5
+sm_weapon hunting_rifle verticalpunch 2.0
 sm_weapon hunting_rifle spreadpershot 1.0
 sm_weapon hunting_rifle minstandingspread 0.2
 sm_weapon hunting_rifle minduckingspread 0.1
@@ -185,16 +193,25 @@ sm_weapon hunting_rifle mininairspread 1.0
 sm_weapon hunting_rifle maxmovementspread 1.5
 sm_weapon hunting_rifle cycletime 0.25
 sm_weapon hunting_rifle damage 100
-sm_weapon hunting_rifle penetrationpower 100
+sm_weapon hunting_rifle penetrationnumlayers 5
+sm_weapon hunting_rifle penetrationpower 80
 sm_weapon hunting_rifle rangemod 1.0
 sm_weapon hunting_rifle range 8192
 sm_weapon hunting_rifle reloadduration 2.6
 
 sm_weapon sniper_scout clipsize 20
-sm_weapon sniper_scout cycletime 0.3
+sm_weapon sniper_scout verticalpunch 1.5
+sm_weapon sniper_scout spreadpershot 0.8
+sm_weapon sniper_scout minstandingspread 0.2
+sm_weapon sniper_scout minduckingspread 0.1
+sm_weapon sniper_scout mininairspread 1.0
+sm_weapon sniper_scout maxmovementspread 1.5
+sm_weapon sniper_scout cycletime 0.275
 sm_weapon sniper_scout damage 125
 sm_weapon sniper_scout rangemod 1.0
 sm_weapon sniper_scout range 8192
+sm_weapon sniper_scout penetrationnumlayers 5
+sm_weapon sniper_scout penetrationpower 80
 sm_weapon sniper_scout reloadduration 2.4
 
 /////////////////////////////
@@ -253,7 +270,7 @@ sm_weapon smg_mp5 reloadduration 2.4
 //  [Shotgun Tweaks 'n Stuff]  //
 /////////////////////////////////
 
-sm_weapon pumpshotgun clipsize 15
+sm_weapon pumpshotgun clipsize 10
 sm_weapon pumpshotgun pelletscatterpitch 5.0
 sm_weapon pumpshotgun pelletscatteryaw 5.0
 sm_weapon pumpshotgun minduckingspread 0.0
@@ -265,12 +282,12 @@ sm_weapon pumpshotgun maxspread 2.0
 sm_weapon pumpshotgun verticalpunch 4.0
 sm_weapon pumpshotgun bullets 20
 sm_weapon pumpshotgun damage 20
-sm_weapon pumpshotgun penetrationnumlayers 2
-sm_weapon pumpshotgun penetrationpower 50
+sm_weapon pumpshotgun penetrationnumlayers 3
+sm_weapon pumpshotgun penetrationpower 60
 sm_weapon pumpshotgun rangemod 0.85
 sm_weapon pumpshotgun range 8192
 
-sm_weapon shotgun_chrome clipsize 15
+sm_weapon shotgun_chrome clipsize 10
 sm_weapon shotgun_chrome pelletscatterpitch 4.0
 sm_weapon shotgun_chrome pelletscatteryaw 4.0
 sm_weapon shotgun_chrome minduckingspread 0.0
@@ -282,9 +299,9 @@ sm_weapon shotgun_chrome maxspread 2.0
 sm_weapon shotgun_chrome verticalpunch 4.0
 sm_weapon shotgun_chrome bullets 16
 sm_weapon shotgun_chrome damage 25
-sm_weapon shotgun_chrome penetrationnumlayers 2
+sm_weapon shotgun_chrome penetrationnumlayers 3
 sm_weapon shotgun_chrome penetrationpower 50
-sm_weapon shotgun_chrome rangemod 0.85
+sm_weapon shotgun_chrome rangemod 0.875
 sm_weapon shotgun_chrome range 8192
 
 /////////////////////////////////
@@ -329,12 +346,6 @@ sm_weapon pistol_magnum range 8192
 // [ Special Tweaks 'n Stuff ] //
 /////////////////////////////////
 
-sm_weapon grenade_launcher cycletime 0.3
-sm_weapon grenade_launcher damage 2000
-sm_weapon grenade_launcher rangemod 1.0
-sm_weapon grenade_launcher range 8192
-sm_weapon grenade_launcher reloadduration 2.8
-
 sm_weapon rifle_m60 clipsize 1000
 sm_weapon rifle_m60 minduckingspread 0.6
 sm_weapon rifle_m60 minstandingspread 1.2
@@ -342,10 +353,18 @@ sm_weapon rifle_m60 mininairspread 1.5
 sm_weapon rifle_m60 maxmovementspread 4.0
 sm_weapon rifle_m60 spreadpershot 0.8
 sm_weapon rifle_m60 maxspread 6.0
-sm_weapon rifle_m60 cycletime 0.1
+sm_weapon rifle_m60 cycletime 0.10
 sm_weapon rifle_m60 damage 80
+sm_weapon rifle penetrationnumlayers 4
+sm_weapon rifle penetrationpower 80
 sm_weapon rifle_m60 rangemod 0.95
 sm_weapon rifle_m60 range 8192
+
+sm_weapon grenade_launcher cycletime 0.3
+sm_weapon grenade_launcher damage 2000
+sm_weapon grenade_launcher rangemod 1.0
+sm_weapon grenade_launcher range 8192
+sm_weapon grenade_launcher reloadduration 2.8
 
 /////////////////////////////////
 // [  Melee Tweaks 'n Stuff  ] //
@@ -405,23 +424,23 @@ sm_weapon minigun penetrationpower 50
 sm_weapon minigun rangemod 0.90
 sm_weapon minigun range 8192
 
-sm_weapon mounted_gun cycletime 0.125
-sm_weapon mounted_gun damage 125
+sm_weapon mounted_gun cycletime 0.10
+sm_weapon mounted_gun damage 150
 sm_weapon mounted_gun penetrationnumlayers 6
 sm_weapon mounted_gun penetrationpower 100
 sm_weapon mounted_gun rangemod 1.0
 sm_weapon mounted_gun range 8192
 
-sm_weapon mounted_machine_gun cycletime 0.1
+sm_weapon mounted_machine_gun cycletime 0.10
 sm_weapon mounted_machine_gun damage 150
-sm_weapon mounted_machine_gun penetrationnumlayers 5
+sm_weapon mounted_machine_gun penetrationnumlayers 6
 sm_weapon mounted_machine_gun penetrationpower 100
 sm_weapon mounted_machine_gun 1.0
 sm_weapon mounted_machine_gun range 8192
 
-/////////////////////////////////
-// [Throwable Tweaks 'n Stuff] //
-/////////////////////////////////
+//////////////////////////////////
+// [Explosives Tweaks 'n Stuff] //
+//////////////////////////////////
 
 sm_weapon pipe_bomb damage 2000
 sm_weapon pipe_bomb range 1000
