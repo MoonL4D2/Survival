@@ -7,7 +7,6 @@ l4d_ready_cfg_name "Apocalypse Mode 1.0"
 confogl_addcvar mp_gamemode "Survival"
 confogl_addcvar z_difficulty "Impossible"
 confogl_addcvar host_map “c5m5_bridge.bsp”
-confogl_addcvar sv_unlockedchapters 1
 confogl_addcvar director_survival_setup_time 300.0
 confogl_addcvar survival_round_restart_delay 10.0
 confogl_addcvar survival_generate_fake_times 0
@@ -33,7 +32,7 @@ confogl_addcvar survivor_speed_boost_factor 10.00
 confogl_addcvar survivor_lean 0
 
 confogl_addcvar sb_l4d1_survivor_behavior 0
-confogl_addcvar sb_unstick 0
+confogl_addcvar sb_unstick 1
 confogl_addcvar sb_allow_leading 1
 confogl_addcvar sb_escort 0
 confogl_addcvar sb_use_button_range 1500.0
