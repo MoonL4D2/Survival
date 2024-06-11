@@ -57,9 +57,9 @@ confogl_addcvar gpu_level “3”
 confogl_addcvar cpu_level “2”
 confogl_addcvar sv_instancebaselines 1
 confogl_addcvar sv_netvisdist 16384
-confogl_addcvar sv_maxroutable 1200.0
-confogl_addcvar net_maxroutable 1200.0
-confogl_addcvar net_maxfragments 1200.0
+confogl_addcvar sv_maxroutable 1200
+confogl_addcvar net_maxroutable 1200
+confogl_addcvar net_maxfragments 1200
 confogl_addcvar net_splitrate 2
 confogl_addcvar net_splitpacket_maxrate 100000
 confogl_addcvar net_maxcleartime 0.001
