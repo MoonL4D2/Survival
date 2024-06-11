@@ -18,7 +18,7 @@ confogl_addcvar sv_disable_glow_faritems 0
 confogl_addcvar decalfrequency 1.60
 confogl_addcvar player_use_radius 150.0
 confogl_addcvar z_use_tolerance 0.50
-confogl_addcvar z_use_belt_item_tolerance 0.00
+confogl_addcvar z_use_belt_item_tolerance -0.00
 confogl_addcvar action_progress_reset_interval 2147483647
 confogl_addcvar z_forwardspeed 450.0
 confogl_addcvar z_sidespeed 450.0
@@ -47,10 +47,10 @@ confogl_addcvar sb_reachability_cache_lifetime 0.00
 confogl_addcvar sb_follow_stress_factor 0.00
 confogl_addcvar sb_separation_danger_max_range 300.0
 confogl_addcvar sb_separation_danger_min_range 200.0
-confogl_addcvar sb_separation_range 200.0
+confogl_addcvar sb_separation_range 300.0
 confogl_addcvar sb_neighbor_range 100.0
 confogl_addcvar sb_hindrance_range 100.0
-confogl_addcvar sb_enforce_proximity_range 300.0
+confogl_addcvar sb_enforce_proximity_range 400.0
 confogl_addcvar sb_enforce_proximity_lookat_timeout 1.00
 confogl_addcvar sb_battlestation_human_hold_time 0.10
 confogl_addcvar sb_max_battlestation_range_from_human 300.0
@@ -77,7 +77,7 @@ confogl_addcvar sb_friend_immobilized_reaction_time_hard 0.01
 confogl_addcvar sb_friend_immobilized_reaction_time_expert 0.01 
 confogl_addcvar sb_friend_immobilized_reaction_time_vs 0.01
 confogl_addcvar sb_temp_health_consider_factor 1.00
-confogl_addcvar sb_toughness_buffer 50
+confogl_addcvar sb_toughness_buffer 25
 confogl_addcvar sb_revive_friend_distance 500.0
 confogl_addcvar sb_vomit_blind_time 0.00
 confogl_addcvar sb_narrow_corridor_width 75.0
