@@ -18,7 +18,7 @@ confogl_addcvar decalfrequency 0.9
 confogl_addcvar player_use_radius 150
 confogl_addcvar z_use_tolerance 0.7
 confogl_addcvar z_use_belt_item_tolerance 0.0
-confogl_addcvar action_progress_reset_interval 2147483647
+confogl_addcvar action_progress_reset_interval 5
 confogl_addcvar z_forwardspeed 500
 confogl_addcvar z_sidespeed 500
 confogl_addcvar z_backspeed 500
