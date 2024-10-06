@@ -11,7 +11,7 @@ confogl_addcvar sv_search_key “”
 confogl_addcvar sv_search_team_key “”
 confogl_addcvar sv_tags “”
 confogl_addcvar sv_stats 1
-confogl_addcvar sv_logsdir “logs”
+confogl_addcvar sv_logsdir logs
 confogl_addcvar sv_log_onefile 0
 confogl_addcvar sv_logecho 0
 confogl_addcvar sv_logblocks 0
