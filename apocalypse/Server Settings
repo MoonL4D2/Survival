@@ -33,11 +33,11 @@ confogl_addcvar sv_pausable 0
 confogl_addcvar sv_pausable_dev 0
 confogl_addcvar sv_pausable_dev_ds 0
 confogl_addcvar sv_rcon_log 0
-confogl_addcvar sv_rcon_minfailures 10
+confogl_addcvar sv_rcon_minfailures 20
 confogl_addcvar sv_rcon_maxfailures 20
-confogl_addcvar sv_rcon_minfailuretime 15
+confogl_addcvar sv_rcon_minfailuretime 30
 confogl_addcvar sv_rcon_banpenalty 0
-confogl_addcvar cl_resend 1.5
+confogl_addcvar cl_resend 3
 confogl_addcvar sv_hibernate_when_empty 1
 confogl_addcvar sv_hibernate_ms 0
 confogl_addcvar sv_hibernate_ms_vgui 0
